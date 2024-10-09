@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_snake_clipped_WQMunicipal_StormwaterMunicipalStormwaterPermitsshp_2 = function(feature, resolution){
+var style_snake_clipped_WSDOT__Regions_13A24Kshp_3 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
@@ -21,7 +21,7 @@ var style_snake_clipped_WQMunicipal_StormwaterMunicipalStormwaterPermitsshp_2 = 
         labelText = String("");
     }
     var style = [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(190,178,151,0.5176470588235295)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(110,93,31,0.4235294117647059)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)

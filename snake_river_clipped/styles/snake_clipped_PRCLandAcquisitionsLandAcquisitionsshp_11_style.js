@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_snake_clipped_WaterRightsDiversions_11 = function(feature, resolution){
+var style_snake_clipped_PRCLandAcquisitionsLandAcquisitionsshp_11 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
@@ -21,8 +21,7 @@ var style_snake_clipped_WaterRightsDiversions_11 = function(feature, resolution)
         labelText = String("");
     }
     var style = [ new ol.style.Style({
-        image: new ol.style.Circle({radius: 4.0 + size,
-            stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.0}), fill: new ol.style.Fill({color: 'rgba(225,89,137,1.0)'})}),
+        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(13,148,107,0.5058823529411764)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)

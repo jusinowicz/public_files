@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_snake_clipped_PARKS__Park_Boundariesshp_10 = function(feature, resolution){
+var style_snake_clipped_PARKS__Park_Boundariesshp_12 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
