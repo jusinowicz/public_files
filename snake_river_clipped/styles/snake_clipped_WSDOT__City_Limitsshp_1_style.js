@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_snake_clipped_WA_County_Boundariesshp_4 = function(feature, resolution){
+var style_snake_clipped_WSDOT__City_Limitsshp_1 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
@@ -21,7 +21,7 @@ var style_snake_clipped_WA_County_Boundariesshp_4 = function(feature, resolution
         labelText = String("");
     }
     var style = [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(164,113,88,1.0)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(182,85,11,0.4627450980392157)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
