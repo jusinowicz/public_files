@@ -21,7 +21,7 @@ var style_WA_DNR_Regions_2 = function(feature, resolution){
         labelText = String("");
     }
     var style = [ new ol.style.Style({
-        fill: new ol.style.Fill({color: 'rgba(31,84,17,0.49411764705882355)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(31,84,17,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.38}),fill: new ol.style.Fill({color: 'rgba(31,84,17,0.10196078431372549)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
